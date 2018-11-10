@@ -6,6 +6,6 @@ exports.mul = (a, b) => {
   return a * b;
 }
 
-exports.nothing = (a, b) => {
+exports.nothing = (a, ba) => {
   return a;
 }
