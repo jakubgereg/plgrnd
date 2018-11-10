@@ -1,4 +1,12 @@
 function sum(a, b) {
   return a + b;
 }
-module.exports = sum;
+
+function mul(a, b) {
+  return a * b;
+}
+
+module.exports = {
+  sum,
+  mul
+}
