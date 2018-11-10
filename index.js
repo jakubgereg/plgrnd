@@ -1,12 +1,7 @@
-function sum(a, b) {
+exports.sum = (a, b) => {
   return a + b;
 }
 
-function mul(a, b) {
+exports.mul = (a, b) => {
   return a * b;
-}
-
-module.exports = {
-  sum,
-  mul
 }
